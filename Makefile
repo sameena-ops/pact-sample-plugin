@@ -2,9 +2,9 @@ TEST?=./...
 .DEFAULT_GOAL := ci
 FFI_VERSION=0.3.15
 # Update this version
-VERSION=0.0.1
+VERSION=0.0.4
 # Update to your project name
-PROJECT=myplugin
+PROJECT=pact-sample-plugin
 
 ci:: deps clean bin test
 
